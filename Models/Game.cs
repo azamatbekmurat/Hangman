@@ -47,7 +47,7 @@ namespace Hangman.Models
             return _lose;
         }
 
-        public static void SetCurrent(string word)
+        public static void SetCurrentWord(string word)
         {
             _currentWord = word;
         }
@@ -171,7 +171,7 @@ namespace Hangman.Models
             _guesses = guesses;
         }
 
-        public static List<sting> GetGuesses()
+        public static List<string> GetGuesses()
         {
             return _guesses;
         }

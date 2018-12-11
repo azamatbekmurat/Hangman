@@ -5,7 +5,7 @@ using Hangman.Models;
 
 namespace Hangman.Controllers
 {
-    public class GameController : Controllers
+    public class GameController : Controller
     {
         [HttpPost("/Game/Create")]
         public ActionResult Create()
